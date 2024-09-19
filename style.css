@@ -1,0 +1,130 @@
+/* Базовые стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Стиль для header */
+header {
+    background-color: #282c34;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Стиль для основного контента */
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Установите максимальную ширину для содержимого */
+    background-color: #fff;
+    border: 1px solid #ccc; /* Легкая граница вокруг содержимого */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Стиль для секций самолетов и вертолетов */
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Расстояние между блоками */
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ccc; /* Рамка вокруг каждого блока */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    padding: 15px;
+    flex: 1;
+    min-width: 300px; /* Минимальная ширина для блоков */
+    max-width: 500px; /* Максимальная ширина для блоков */
+}
+
+/* Стиль для галерей */
+.gallery {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    border: 1px solid #333;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стиль для таблицы характеристик */
+.characteristics {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.characteristics th, .characteristics td {
+    padding: 5px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.characteristics th {
+    background-color: #444;
+    color: white;
+}
+
+/* Стиль для футера */
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
